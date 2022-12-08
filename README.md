@@ -1,7 +1,7 @@
 # Quantifying-scientists-research-ability-by-taking-institutions-scientific-impact-as-priori-informa
 We supply the code for ***"Quantifying scientists’ research ability by taking institutions’ scientific impact as priori information"***.  
   
-In this paper, we propose the institution Q-model, which integrates scientists’ affiliated institutions as valuable prior information, and jointly evaluate all scientists from different institutions. The core idea of our model is to assume that the research ability of scientists from the same institution shares the same distribution, by which our model can cope with data sparse in author-level evaluation, and also explain the research ability of institutions. This simple but effective idea not surprisingly improves the performance of our model and broadens the thought for incorporating academic environment into scientific evaluation. 
+In this paper, we propose the institution Q-model, which integrates scientists’ affiliated institutions as valuable prior information, and jointly evaluate all scientists from different institutions. The core idea of our model is to assume that the research ability of scientists from the same institution shares the same distribution, by which our model can cope with data sparse in author-level evaluation, and also explain the research ability of institutions. This simple but intuitive  idea not surprisingly improves the performance of our model and broadens the thought for incorporating academic environment into scientific evaluation. 
 
 
 # Code
