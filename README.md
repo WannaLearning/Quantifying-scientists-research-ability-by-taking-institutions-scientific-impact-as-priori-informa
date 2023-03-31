@@ -6,7 +6,7 @@ In this paper, we propose the institution Q-model (IQ) and its two simple varian
 
 # Code
 ## Model
-***BBVI-EM_example.py***:  A simplest model for testing the BBVI-EM algorithm. The BBVI-EM algorithm update iteratively the variational parameters and model parameters iteratively.
+***BBVI-EM_example.py***:  A simplest model for testing the BBVI-EM algorithm. The BBVI-EM algorithm update iteratively the variational parameters and model parameters.
 
 ***BBVI-EM_IQModel.py***: The instituion Q model (IQ model) presented in our paper, in which scientists from the same institution share a prior distribution. Unlike the Q-model, the productivity of a scientist also plays a non-ignorable role in the institution Q-model; that is, more high-quality articles authored by the scientist will help him/her score higher research ability in our model by twisting known prior information. Different from the original Q-model, the inferential problem of our probabilistic graphical model is to compute the posterior distribution of the hidden variable given the observed data.  
 
