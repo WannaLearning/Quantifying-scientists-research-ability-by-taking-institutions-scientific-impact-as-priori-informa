@@ -181,9 +181,6 @@ def BBVI_Algorithm():
     
     # 真实模型参数: mu_Q, sig_Q, mu_P, sig_P
     mu_Q_real, log_sig_Q_real = 3.0, 1.0
-    # ***  区别于王大顺 (它们未阐明如下关键点)
-    # mu_p  不重要,   因为等同于所有作者浮动 mu_p. 这点可以从他们的Q值估计等式发现
-    # sig_p 不能过大, 因为过大的sig_p代表机会随机性占主导地位, Q的大小在估计中无关要紧, 导致隐变量Q, mu_q估不准
     mu_P_real, log_sig_P_real = 0.0, 0.0     
     model_params_real = np.array([mu_Q_real, mu_P_real, log_sig_Q_real, log_sig_P_real])
     
